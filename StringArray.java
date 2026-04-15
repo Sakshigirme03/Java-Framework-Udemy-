@@ -1,3 +1,6 @@
+//Created a class with variable and in main class created objects of the class and stored them in a array and then printed them using enhanced for loop
+
+
 class Students{
     int rollNo;
     String name;
@@ -20,8 +23,8 @@ public class StringArray{
         student[0]=s1;
         student[1]=s2;
 
-        for(int i=0;i<student.length;i++){
-            System.out.println("Roll n0 : "+student[i].rollNo+", name : "+student[i].name+" , Marks: "+student[i].marks);
+        for(Students n: student){
+            System.out.println("Roll no : "+n.rollNo+", name : "+n.name+" , Marks: "+n.marks);
         }
 
     }
