@@ -18,7 +18,7 @@ public class StaticKeyword {
         Human.age=20;
         obj1.hight=122;
         obj1.ShowInfo();
-        System.out.println("Value of static variable age changed from 15 to 20 ");
+        System.out.println(" Value of static variable age changed from 15 to 20 ");
         obj.ShowInfo();
 
 
