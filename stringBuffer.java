@@ -8,7 +8,7 @@ public class stringBuffer{
         System.out.println("Length :"+sb.length());
         sb.deleteCharAt(3);
         System.out.println(sb);
-        sb.setLength(newLength:30);
+        sb.setLength(30);
         System.out.println("Length :"+sb.length());
 
     }
