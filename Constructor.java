@@ -1,6 +1,6 @@
 class Human{
     Human(){
-        System.out.println("Inside constructor");
+        System.out.println("Inside constructor ");
     }
     public void display(){
         System.out.println("outside constructor");
