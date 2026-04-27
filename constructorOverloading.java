@@ -5,7 +5,6 @@ class human{
         System.out.println("Inside constructor");
     }
     human(int age){
-        this.age=age+10;
         System.out.println(age);
     }
 }
